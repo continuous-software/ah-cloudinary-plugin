@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kytwb/ah-cloudinary-plugin/issues"
   },
-  "homepage": "https://github.com/kytwb/ah-cloudinary-plugin"
+  "homepage": "https://github.com/kytwb/ah-cloudinary-plugin",
+  "dependencies": {
+    "cloudinary": "^1.1.0"
+  }
 }
