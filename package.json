@@ -1,0 +1,20 @@
+{
+  "name": "ah-cloudinary-plugin",
+  "version": "1.0.0",
+  "description": "ah-cloudinary-plugin ====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kytwb/ah-cloudinary-plugin.git"
+  },
+  "author": "Amine Mouafik <amine@mouafik.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kytwb/ah-cloudinary-plugin/issues"
+  },
+  "homepage": "https://github.com/kytwb/ah-cloudinary-plugin"
+}
