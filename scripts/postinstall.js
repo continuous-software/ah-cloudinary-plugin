@@ -3,8 +3,8 @@
 var fs = require('fs');
 var path = require('path');
 
-var localFile   = path.normalize(__dirname + '/../config/ah-cloudinary-plugin.js');
-var projectFile = path.normalize(process.cwd() + '/../../config/plugins/ah-cloudinary-plugin.js');
+var localFile   = path.normalize(__dirname + '/../config/cloudinary.js');
+var projectFile = path.normalize(process.cwd() + '/../../config/plugins/cloudinary.js');
 
 if(!fs.existsSync(projectFile)){
   console.log("copying " + localFile + " to " + projectFile);
