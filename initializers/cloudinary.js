@@ -5,7 +5,8 @@ var Cloudinary = require('cloudinary');
 
 exports.cloudinary = function(api, next) {
 
-  api.cloudinary = Cloudinary.config(api.config.cloudinary);
+  api.cloudinary = Cloudinary;
+  api.cloudinary.config(api.config.cloudinary);
 
   next();
 
