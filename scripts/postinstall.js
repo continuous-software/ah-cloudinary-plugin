@@ -6,7 +6,7 @@ var path = require('path');
 var localFile   = path.normalize(__dirname + '/../config/cloudinary.js');
 var projectFile = path.normalize(process.cwd() + '/../../config/plugins/cloudinary.js');
 
-if(!fs.existsSync(projectFile)){
+if (!fs.existsSync(projectFile) && fs.existsSync(path.dirname(projectFile))) {
   console.log("copying " + localFile + " to " + projectFile);
   fs.createReadStream(localFile).pipe(fs.createWriteStream(projectFile));
 }
